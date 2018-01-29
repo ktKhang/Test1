@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="com.example.ktkhang.test1.MainActivity">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="319dp"
+        android:layout_height="152dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Welcome to Android App Development!"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="#00F"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <ImageView
+        android:id="@+id/droidImageView"
+        android:layout_width="261dp"
+        android:layout_height="155dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/a"/>
+
+    <ImageView
+        android:id="@+id/bugImageView"
+        android:layout_width="289dp"
+        android:layout_height="153dp"
+        android:layout_below="@+id/droidImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/b" />
+
+</RelativeLayout>
